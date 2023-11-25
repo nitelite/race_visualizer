@@ -1,0 +1,14 @@
+[03:18] <@chiller> NiteLite: Sports\2023-11-11-Landskampen\cgi på pusen
+[03:18] <@chiller> der ligger nå "landskampen.json"
+[03:18] <@chiller> 70 MB med goodness
+[03:38] <@chiller> glemte litt data, ny ligger der nå
+[03:38] <@chiller> 84MB data
+[03:38] <@chiller> burde være rimelig selvforklarende format
+[03:39] <@chiller> alt ligger i et array med hver sin "time" og "score"
+[03:40] <@chiller> time er fra et arbitrært 0-punkt jeg satte som er 1.7ish sekunder før første bilen passerer start/mål 
+[03:40] <@chiller> i "score" ligger det et array som skal være rekkefølgen bilene ligger an just nuh.
+[03:40] <@chiller> pits er antall pitstop som er påstartet
+[03:40] <@chiller> in_pit er true hvis bilen er i pit
+[03:41] <@chiller> current_lap_time er laptimen som er den runden de er ute og kjører nå
+[03:42] <@chiller> "lastround" er tiden runden de har nå starta
+[03:43] <@chiller> så hvis "time" er lik "lastround" så kan du starte en sånn "loading-bar-animasjon" som skal ta "current_lap_time" lang tid å fullføre :p
