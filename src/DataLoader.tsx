@@ -4,7 +4,7 @@ import { RaceSnapshot } from "./types.ts";
 import { convertTimeStringToMillis } from "./utils.ts";
 
 const loadData = async () => {
-   const response = await fetch("/data/landskampen.json.gz");
+   const response = await fetch("/data/landskampen.json");
    return await response.json();
 };
 
